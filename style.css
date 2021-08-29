@@ -1,0 +1,370 @@
+/*
+    padding: 0px;
+    margin: 0px;
+}
+/*NAVIGATION BAR*/
+#navbar{
+    background-color: rgb(36, 31, 31);
+    display:flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Mate SC', serif;
+    
+    
+    position: fixed;
+    width: 100%;
+
+}
+ #navbar .navi{
+    
+    display: flex;
+    list-style: none;
+    
+    margin-left: 80px;
+}
+
+#navbar ul li a{
+     
+    margin:10px 10px;
+    padding: 3px 10px;
+    text-decoration: none;
+    font-size: 1.0rem;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 30px;
+    
+
+}
+#navbar ul li a:hover{
+    background-color: rgb(218, 170, 100);
+    color: rgb(75, 69, 69);
+    
+}
+#navbar img{
+    width: 30px;
+    height: 30px;
+    position:fixed;
+    left: 28px;
+    top: 2px;
+}
+#navbar h4{
+    
+    position: fixed;
+    left: 17px;
+    top: 30px;
+    color: white;
+    
+}
+#navbar .btn{
+    
+    background-color: rgb(56, 56, 156);
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: 0px 4px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Sigmar One', cursive;
+}
+#navbar .btn:hover{
+    background-color:rgb(87, 87, 168);
+    color: grey;
+}
+#navbar .sear{
+    
+    position: fixed;
+    
+    
+    left: 880px;
+    font-family: 'Sigmar One', cursive;
+
+}
+#navbar .sear input{
+    
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+/*MYTUNES*/
+#mytune{
+    font-family: 'Mate SC', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+
+}
+#mytune::before{
+    content: "";
+    position: absolute;
+    background: url(background13.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    
+    
+    
+}
+#mytune #hprimary{
+    
+    margin: 40px;
+    padding: 2px;
+    font-size: 2.0rem;
+    color: white;
+    
+}
+#mytune #hsecondary{
+    
+    margin: 30px;
+    padding: 0px;
+    font-size: 1.6rem;
+    color: white;
+}
+#mytune p{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin:auto;
+    font-weight: bolder;
+    color: white;
+    
+}
+/*MUSIC*/
+#music{
+    
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    height: 670px;
+    
+}
+#music::before{
+    content:"";
+    position: absolute;
+    background-color: rgb(43, 41, 41);
+    width: 100%;
+    height: 160%;
+    z-index: -1;
+}
+ #music #hprimary{
+    
+    margin: 40px;
+    padding: 2px;
+    font-size: 2.0rem;
+    color: white;
+    
+}
+ #music #hsecondary{
+    
+    margin: 30px;
+    padding: 0px;
+    font-size: 1.6rem;
+    color: white;
+}
+#music p{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin:auto;
+    font-weight: bolder;
+    color: white;
+}
+#music .btn{
+    
+    margin: 45px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    background-color: rgb(196, 18, 18);
+
+}
+#music .btn:hover{
+    color: rgb(56, 54, 54);
+    background-color:rgb(209, 44, 44) ;
+}
+#music img{
+    border-radius: 40px;
+    margin: 10px 15px;
+    width: 30%;
+    height: 100%;
+    
+}
+#music .img{
+    display: flex;
+    justify-content: center;
+}
+/*Tv*/
+#tv{
+    
+    display: flex;
+    flex-direction: column;
+    height: 1070px;
+    text-align: center;
+    background-color: cornsilk;
+    margin-top: 210px;
+    
+}
+#tv #hprimary{
+    
+    margin: 40px;
+    padding: 2px;
+    font-size: 2.0rem;
+    color: black;
+
+}
+#tv p{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin:auto;
+    font-weight: bolder;
+    color: black;
+}
+#tv .btn{
+    
+    margin: 45px;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    background-color: rgb(71, 60, 168);
+
+}
+#tv .btn:hover{
+    color: rgb(56, 54, 54);
+    background-color:rgb(209, 44, 44) ;
+}
+#tv img{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+/*entertainment*/
+#entertainment{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 488px;
+}
+#entertainment::before{
+    content: "";
+    position: absolute;
+    background: url(sky.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+
+}
+#entertainment #hprimary{
+    
+    color: white;
+    margin: 30px;
+    padding: 2px;
+    font-size: 2.0rem;
+    
+
+}
+#entertainment p{
+    
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    display: block;
+    margin:auto;
+    font-weight: bolder;
+    
+}
+/*gift pass*/
+#giftpass{
+    
+    display: flex;
+}
+#gift{
+    
+    margin: 8px;
+    width: 600px;
+    
+    
+}
+#giftpass #hprimary{
+    
+    margin-top:80px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+#gift p{
+    
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+#gift .btn{
+    
+    margin-top: 10px;
+    margin-left:5px;
+    font-size: 1.1rem;
+    border: none;
+    background-color:white ;
+}
+#gift .btn:hover{
+    color: grey;
+}
+#giftpass img{
+    height: 500px;
+    
+    border-radius: 30px;
+    
+}
+#giftpass img{
+    height: 500px;
+    
+    border-radius: 30px;
+}
+/*Random*/
+#random{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 42, 42) ;
+    height: 250px;
+    
+}
+#random div{
+    margin:4px 60px;
+    color: white;
+}
+#random ul{
+    
+    list-style: none;
+}
+#random  div h1{
+    
+    margin: 5px;
+    margin-top: 30px;
+}
+#random div li{
+    
+    margin: 6px;
+}
+#footer{
+    
+    text-align: center;
+    border: 2px solid black;
+    font-size: 1.3rem;
+}
